@@ -90,7 +90,7 @@ PM_START_TEXT = """
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────────
-✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ GᴀᴜʀBᴏᴏ!*
 """
 
 buttons = [
@@ -111,7 +111,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/YurikoRobot?startgroup=true"),
+        InlineKeyboardButton(text="Aᴅᴅ Mᴇ", url="http://t.me/Miss_Elena_Robot?startgroup=true"),
     ],
 ]
 
@@ -127,7 +127,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @PiroXPower's 💕"""
+ @gauravsingh003 💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -248,7 +248,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Decodesupport")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/elena_support_group")]]
             ),
         )
         
@@ -380,8 +380,8 @@ def yurikorobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "yurikorobot_":
         query.message.edit_text(
-            text=""" *YURIKO* - `A bot to manage your groups with additional features!`
-            \n`Here the basic help regarding use of yurikorobot.`
+            text=""" *Elena* - `A bot to manage your groups with additional features!`
+            \n`Here the basic help regarding use of Elenabot.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
             \n`Report error/bugs click the Button`""",
@@ -391,10 +391,10 @@ def yurikorobot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/Decodesupport"
+                            text="Bᴜɢ'ꜱ", url="t.me/elena_support_group"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/DeeCodeBots/32"
+                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/elena_support_group"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")],
@@ -421,7 +421,7 @@ def yurikorobot_about_callback(update, context):
             
             f"\n\n✗ `Firstly Add` {dispatcher.bot.first_name} `to your group by pressing` [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n✗ `After adding promote me manually with full rights for faster experience.`\n"
-            f"\n✗ `Than send` `/admincache@YurikoRobot` `in that chat to refresh admin list in My database.`\n"
+            f"\n✗ `Than send` `/admincache@Miss_Elena_Robot` `in that chat to refresh admin list in My database.`\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -447,7 +447,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, YurikoRobot now ready to manage your group.`"
+            f"\n✗ `Congragulations, Elenabot now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
@@ -480,10 +480,10 @@ def yurikorobot_about_callback(update, context):
             f"\n*SETUP ASSISTANT*"
             f"\n\n✗ `1.) first, add me to your group.`"
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
-            f"\n\n✗ `3.) add` @YurikoPlugin `to your group:`"
-            f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The Yuriko Music And Join Support Group @DeCodeSupport*"
-            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*",
+            f"\n\n✗ `3.) add` @Miss_security_bot `to your group:`"
+            f"\n\n✗ `4.) you have our another bot.`"
+            f"\n\n✗ *Lets Enjoy The Both bots And Join Support Group @elena_support_group*"
+            f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ GᴀᴜʀBᴏᴏ!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -494,7 +494,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"*Let's Make Your Group Bit Effective Now*"
             
-            f"\n✗ `Congragulations, YurikoRobot now ready to manage your group.`"
+            f"\n✗ `Congragulations, Elenabot now ready to manage your group.`"
             f"\n\n*Admin Tools*"
             f"\n✗ `Basic Admin tools help you to protect and powerup your group.`"
             f"\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`"
@@ -509,19 +509,19 @@ def yurikorobot_about_callback(update, context):
         )    
     elif query.data == "yurikorobot_support":
         query.message.edit_text(
-            text="* YURIKO Support Chats*"
+            text="* Elena Support Chats*"
             
             "\n\n✗ `Join Support Group/Channel`",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/YurikoLogs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/Deecodenews"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/gaurboo_fed_logs"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/grb_network"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Decodesupport"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/deecodebots"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/elena_support_group"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/grb_network"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
@@ -532,19 +532,19 @@ def yurikorobot_about_callback(update, context):
         )
     elif query.data == "yurikorobot_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR YURIKO DEV'S</b>\n"
+            text=f"<b> CREDIT FOR ELENA DEV'S</b>\n"
             
-            f"\n`✗ Here Some Developers Helping in Making The Yuriko Bot`",
+            f"\n`✗ Here Some Developers Helping in Making The Elena Bot`",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="BʀᴀʏDᴇɴ", url="t.me/BrayDenXD"),
-                    InlineKeyboardButton(text="Bʟᴀᴢᴇ", url="t.me/piroXpower"),
+                    InlineKeyboardButton(text="Gᴀᴜʀᴀᴠ Sɪɴɢʜ", url="gauravsingh003"),
+                    InlineKeyboardButton(text="Gᴀᴜʀᴀᴠ Sʜᴀʀᴍᴀ", url="t.me/sharmag02"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sʜᴜʙʜᴀɴꜱʜᴜ", url="t.me/Shubhanshutya"),
-                    InlineKeyboardButton(text="Dᴇ Cᴏᴅᴇ", url="https://t.me/TeamDeeCode"),
+                    InlineKeyboardButton(text="Sᴏᴜʙɪᴋ Rᴏʏ", url="t.me/Subu449400"),
+                    InlineKeyboardButton(text="Kʜɪᴛɪᴊ Pᴀɴᴅᴇʏ", url="https://t.me/the_real_kshitij"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
@@ -560,8 +560,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *yurikorobot*
-                 \nHere is the [🔥Source Code🔥](https://github.com/TeamDeeCode) .""",
+            text=""" Hi..😻 I'm *Elena*
+                 \nHere is the [🔥Source Code🔥](https://t.me/elenasource) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(

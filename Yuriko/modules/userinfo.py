@@ -551,7 +551,7 @@ __help__ = """
 
 Examples:
 
-✗ /setme - `I am a` *DᴇCᴏᴅᴇ* `Member.`
+✗ /setme - `I am a` *GᴀᴜʀBᴏᴏ* `Member.`
 
 ✗ /me - `@username(defaults to yours if no user specified)`
  
@@ -565,7 +565,7 @@ Examples:
 
 ✗ /bio - `@username(defaults to yours if not specified).`
 
-✗ /setbio - `This user is a` *DᴇCᴏᴅᴇ* `Member (reply to the user)`
+✗ /setbio - `This user is a` *GᴀᴜʀBᴏᴏ* `Member (reply to the user)`
  
 *Overall Information about you:*
 
@@ -585,9 +585,9 @@ Examples:
 
 *What is that health thingy?*
 
- `Come and see` [HP System explained](https://t.me/YurikoLogger/5)
+ `Come and see` [HP System explained](https://t.me/gauravsingh003)
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ GᴀᴜʀBᴏᴏ!*
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio, run_async=True)

@@ -180,7 +180,7 @@ def config(client, message):
 __help__ = """
 *Force Subscribe:*
 
-✗ `Yuriko can mute members who are not subscribed your channel until they subscribe`
+✗ `Elena can mute members who are not subscribed your channel until they subscribe`
 
 ✗ `When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them`
 
@@ -217,6 +217,6 @@ __help__ = """
 ✗ /fedadminhelp - `Provides help for fed administration commands`
 ✗ /feduserhelp - `Provides help for commands anyone can use`
 
-*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ GᴀᴜʀBᴏᴏ!*
 """
 __mod_name__ = "Fꜱᴜʙ & Fᴇᴅꜱ"

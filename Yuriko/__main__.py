@@ -539,7 +539,7 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Gᴀᴜʀᴀᴠ Sɪɴɢʜ", url="gauravsingh003"),
+                    InlineKeyboardButton(text="Gᴀᴜʀᴀᴠ Sɪɴɢʜ", url="t.me/gauravsingh003"),
                     InlineKeyboardButton(text="Gᴀᴜʀᴀᴠ Sʜᴀʀᴍᴀ", url="t.me/sharmag02"),
                  ],
                  [

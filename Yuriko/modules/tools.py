@@ -1,7 +1,7 @@
 __mod_name__ = "Tᴏᴏʟꜱ"
 
 __help__ = """
-*Yuriko Info bot*
+*Elena Info bot*
 
 ✗  /sg <reply> - `To check history name`
 

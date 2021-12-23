@@ -516,7 +516,7 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/gaurboo_fed_logs"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="https://t.me/elena_logs"),
                     InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/grb_network"),
                  ],
                  [

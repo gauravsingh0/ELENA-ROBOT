@@ -11,7 +11,7 @@
 ## Available on Telegram as [@Elena](https://t.me/Miss_Elena_Robot)
 
 # ❤️ Support
-<a href="https://t.me/elena_support_group"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/grb_network"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 <a href="t.me/elena_support_group"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 

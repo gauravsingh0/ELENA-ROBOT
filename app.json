@@ -1,5 +1,5 @@
 {
-      "name": "Yuriko Robot",
+      "name": "ELENA-ROBOT",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/1495fab0586fe05160204.jpg",  
-   "repository": "https://github.com/TeamDeeCode/yuriko",
+   "logo":    "https://telegra.ph/file/6916f210b0f4133819d51.jpg",  
+   "repository": "https://github.com/gauravsingh0/ELENA-ROBOT",
    "addons": [
           {
          "options": {
@@ -79,12 +79,12 @@
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "BrayDenXD"
+         "value": "gauravsingh003"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "Decodesupport"
+         "value": "elena_support_group"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",

@@ -44,7 +44,7 @@ async def alive(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://t.me/elenasource"), 
+                        "Repo", url="https://github.com/gauravsingh0/ELENA-ROBOT"), 
                     InlineKeyboardButton(
                         "Support", url="https://t.me/elena_support_group")
                 ]

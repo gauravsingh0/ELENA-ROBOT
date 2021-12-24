@@ -8,7 +8,7 @@
 
 <p align="center"><a href="https://t.me/Miss_Elena_Robot"><img src="(https://telegra.ph/file/6916f210b0f4133819d51.jpg)" width="400"></a></p>
 
-## Available on Telegram as [@Elena](https://t.me/Miss_Elena_Robot)
+## Available on Telegram as [@Ξ L Ξ N Λ](https://t.me/Miss_Elena_Robot)
 
 # ❤️ Support
 <a href="https://t.me/grb_network"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>

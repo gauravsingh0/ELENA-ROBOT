@@ -394,7 +394,7 @@ def yurikorobot_about_callback(update, context):
                             text="Bᴜɢ'ꜱ", url="t.me/elena_support_group"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/elena_support_group"
+                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/grb_network/12"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")],
